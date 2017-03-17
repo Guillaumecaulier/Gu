@@ -1,255 +1,359 @@
+
 <!doctype html>
-<html>
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8">
-
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Guillaume Caulier - Developper Front-end & Webdesigner</title>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" />
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
   </head>
-
-  <body class="index">
-    <div class="main-nav hidden-xs">
-  <ul class="nav">
-    <li id="logo"><a href="/"><img src="images/logo.svg" alt="Logo Guillaume Caulier" id="logo-nav"></a></li>
-    <li><a href="#">About me</a></li>
-    <li><a class="gopro">Projects</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</div>
-
-
-
-
-<section class="loader">
-  <header>
-    <div class="container" id="loader">
-      <div class="col-xs-12 text-center">
-        <svg width="150px" height="221px" viewBox="135 120 550 621" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="logo-guillaume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(136.000000, 120.000000)">
-        <path d="M13.658,157.604 C10.637,155.804 9.157,153.707 9.157,151.302 C9.157,148.91 10.637,146.8 13.658,145 L120.822,82.86 C124.425,81.048 128.926,80.147 134.327,80.147 C140.332,80.147 145.129,81.047 148.732,82.86 L255.896,145 C258.893,146.8 260.397,148.91 260.397,151.302 C260.397,153.707 258.893,155.804 255.896,157.604 L164.059,209.818 L135.216,193.613 L106.408,210.718 L13.658,157.604 L13.658,157.604 Z" class="drawme" id="g3" stroke="#000000" stroke-width="2"></path>
-        <path d="M137.928,371.935 L137.928,265.682 L166.761,248.553 L166.761,216.144 L258.597,163.005 C261.001,161.809 262.815,161.205 264.011,161.205 C267.019,161.205 268.642,162.247 268.962,164.367 C269.258,166.464 269.401,168.111 269.401,169.307 L269.401,292.677 C269.401,296.895 268.073,301.385 265.361,306.193 C262.672,311.004 259.509,314.604 255.896,316.997 L149.04,378.062 C146.634,379.282 145.374,380.126 143.329,380.038 C138.562,379.831 137.912,376.377 137.912,372.835 C137.912,372.282 137.928,371.935 137.928,371.935 L137.928,371.935 Z" class="drawme" id="g4" stroke="#000000" stroke-width="2"></path>
-        <path d="M0.143,454.308 L0.143,327.054 C0.143,326.865 0.165,323.711 0.165,321.773 C0.165,321.773 0.764,316.268 6.781,318.829 L106.195,375.933 L120.261,383.983 C123.576,385.88 125.313,387.669 125.313,391.086 C125.313,394.503 120.823,396.907 120.823,396.907 L11.205,460.776 C11.205,460.776 9.446,461.919 6.89,461.999 C6.89,461.999 1.238,462.574 0.143,456.919 L0.143,454.308" class="black" id="black-left" fill="#1D1D1B"></path>
-        <path d="M121.339,538.493 L14.691,476.574 C14.532,476.48 11.9,474.928 10.276,473.985 C10.276,473.985 5.954,470.804 11.027,467.008 L107.257,411.478 L120.848,403.605 C124.051,401.751 126.395,401.165 129.258,402.826 C132.122,404.49 131.952,409.424 131.952,409.424 L132.141,532.369 C132.141,532.369 132.243,534.398 131.066,536.581 C131.066,536.581 128.797,541.598 123.525,539.763 L121.339,538.493" class="drawme" id="g6" stroke="#000000" stroke-width="2"></path>
-        <path d="M10.934,315.259 L124.035,379.776 C124.035,379.776 132.143,383.465 132.143,374.63 L132.032,264.85 L107.204,250.23 L11.586,304.785 C11.586,304.785 4.333,309.167 10.934,315.259 L10.934,315.259 Z" class="drawme" id="g1" stroke="#000000" stroke-width="2"></path>
-        <path d="M0.143,164.157 C0.143,164.157 0.856,157.233 8.181,161.428 L103.708,216.14 L103.708,244.952 L10.945,298.991 C10.945,298.991 9.227,300.107 6.732,300.185 C6.732,300.185 1.213,300.747 0.143,295.225 L0.143,164.157" class="drawme" id="g2" stroke="#000000" stroke-width="2"></path>
-        <path d="M279.597,165.157 C279.597,165.157 280.31,158.233 287.635,162.428 L383.162,217.14 L383.162,245.952 L290.398,299.991 C290.398,299.991 288.681,301.107 286.185,301.185 C286.185,301.185 280.665,301.747 279.596,296.225 L279.596,165.157" class="drawme" id="c2" stroke="#000000" stroke-width="2"></path>
-        <path d="M547.093,297.123 C547.093,297.123 546.38,304.047 539.055,299.852 L443.528,245.139 L443.528,216.327 L536.292,162.288 C536.292,162.288 538.009,161.172 540.505,161.094 C540.505,161.094 546.025,160.532 547.094,166.054 L547.094,297.123" class="black" id="black-right2" fill="#1D1D1B"></path>
-        <path d="M535.068,304.393 C538.065,306.193 539.571,308.302 539.571,310.694 C539.571,313.111 538.065,315.196 535.068,316.997 L427.904,378.238 C423.106,380.63 418.285,381.839 413.488,381.839 C409.283,381.839 404.794,380.63 399.996,378.238 L292.819,316.997 C289.798,315.196 288.318,313.111 288.318,310.694 C288.318,308.302 289.797,306.193 292.819,304.393 L385.58,250.366 L413.488,266.582 L442.32,250.366 L535.068,304.393 L535.068,304.393 Z" class="drawme" id="c3" stroke="#000000" stroke-width="2"></path>
-        <path d="M440.679,211.607 L411.84,195.403 L383.939,211.631 L291.156,157.642 C288.134,155.843 286.653,153.734 286.653,151.343 C286.651,148.926 288.131,146.841 291.151,145.038 L398.302,83.753 C403.1,81.359 407.587,80.148 411.792,80.147 C416.589,80.145 421.411,81.352 426.21,83.742 L533.398,144.938 C536.396,146.737 537.904,148.822 537.904,151.239 C537.906,153.631 536.399,155.74 533.403,157.542 L440.679,211.607 L440.679,211.607 Z" class="drawme" id="c1" stroke="#000000" stroke-width="2"></path>
-        <path d="M287.405,320.919 C289.384,321.735 290.877,322.423 291.919,323.038 L396.574,383.06 C400.721,385.465 405.726,388.293 408.25,392.889 C410.797,397.497 410.529,403.629 410.801,407.952 L410.801,530.494 C410.801,530.494 411.416,539.354 403.719,538.258 C401.531,537.946 400.01,537.145 398.967,536.541 L294.323,475.53 C290.675,473.397 286.304,470.233 283.522,465.495 C280.704,460.732 280.096,454.86 280.096,448.526 L280.096,328.359 C280.097,319.191 287.405,320.919 287.405,320.919 L287.405,320.919 Z" class="black" id="black-right1" fill="#1D1D1B"></path>
-        <path d="M269.522,328.359 L269.522,448.527 C269.522,454.861 268.915,460.733 266.096,465.496 C263.314,470.234 258.944,473.398 255.295,475.531 L150.651,536.542 C149.608,537.146 148.088,537.947 145.899,538.259 C138.202,539.356 138.817,530.495 138.817,530.495 L138.817,407.953 C139.088,403.63 138.821,397.498 141.368,392.89 C143.891,388.294 148.896,385.466 153.044,383.061 L257.7,323.038 C258.742,322.423 260.235,321.735 262.214,320.919 C262.214,320.919 269.522,319.191 269.522,328.359 L269.522,328.359 Z" class="drawme" id="g5" stroke="#000000" stroke-width="2"></path>
-        <path d="M547.593,448.527 C547.593,454.861 546.986,460.733 544.167,465.496 C541.385,470.234 537.015,473.398 533.366,475.531 L428.722,536.542 C427.679,537.146 426.159,537.947 423.97,538.259 C416.273,539.356 416.888,530.495 416.888,530.495 L416.888,407.953 C417.159,403.63 416.892,397.498 419.439,392.89 C421.962,388.294 426.967,385.466 431.115,383.061 L535.77,323.039 C536.812,322.424 538.305,321.736 540.284,320.92 C540.284,320.919 547.593,319.191 547.593,328.359 L547.593,448.527 Z" class="black" id="black-right" stroke="#979797" fill="#1D1D1B"></path>
-        <path d="M286.073,140.418 C282.413,142.48 277.829,143.509 272.322,143.522 C266.789,143.545 261.968,142.314 257.822,139.826 L152.22,77.449 C149.993,75.932 148.573,74.676 147.98,73.635 C146.511,71.006 146.629,69.062 148.298,67.76 C150.004,66.457 151.355,65.532 152.41,64.941 L259.822,4.233 C263.993,1.877 268.694,0.751 273.944,0.881 C279.202,1.023 283.752,2.077 287.625,4.032 L393.653,67.203 C395.892,68.707 397.3,69.974 397.893,71.017 C399.065,73.114 398.889,74.914 397.359,76.477 C395.82,78.064 394.529,79.118 393.486,79.711 L286.073,140.418 L286.073,140.418 Z" class="black" id="black-top" fill="#1D1D1B"></path>
-        <path d="M288.646,617.39 C285.011,619.495 280.44,620.58 274.934,620.661 C269.402,620.751 264.566,619.577 260.39,617.14 L154.041,556.046 C151.796,554.557 150.36,553.317 149.756,552.283 C148.255,549.673 148.35,547.727 150.003,546.405 C151.693,545.081 153.033,544.139 154.081,543.536 L260.75,481.532 C264.892,479.125 269.579,477.942 274.83,478.01 C280.09,478.086 284.651,479.086 288.548,480.994 L395.333,542.878 C397.59,544.355 399.015,545.605 399.619,546.642 C400.816,548.722 400.662,550.525 399.151,552.107 C397.631,553.713 396.353,554.783 395.317,555.388 L288.646,617.39 L288.646,617.39 Z" class="black" id="black-bottom" fill="#1D1D1B"></path>
-    </g>
-</svg>
-
-        <div class="text-center">
-          <h4 class="split">Guillaume Caulier</h4>
-          <hr id="mini">
-          <h1 class="split">Creative Developer</h1>
+  <body>
+    <nav class="navigation hide-for-small-only">
+      <div class="logo">
+        <img src="./assets/img/logo.png" alt="Logo Guillaume Caulier website">
+      </div>
+      <div class="burger-menu">
+        <div class="burger one"></div>
+        <div class="burger two"></div>
+        <div class="burger three"></div>
+      </div>
+      <div class="mail">
+        <a href="mailto:hello@guillaumecaulier.com">hello@guillaumecaulier.com</a>
+      </div>
+    
+      <div class="navigation-content">
+        <ul class="no-bullet">
+          <li><a href="/#aboutme" class="section-link" >ABOUT ME</a></li>
+          <li><a href="/#projects" class="section-link" >PROJECTS</a></li>
+          <li>
+            <ul class="no-bullet projects-list">
+              <li><a href="#decofr">Déco.fr (groupe M6)</a></li>
+              <li><a href="#ocleo">Studio Ocleo</a></li>
+              <li><a href="#gratte">J-D Gattepanche</a></li>
+              <li><a href="#subli">Sublima</a></li>
+            </ul>
+          </li>
+        </ul>
+    
+        <ul class="no-bullet nav-contact">
+          <li><a href="mailto:hello@guillaumecaulier.com">hello@guillaumecaulier.com</a></li>
+          <li><a href="phoneto:0601402522">Call me baby</a></li>
+          <li><a href=""></a></li>
+          <li><a href="">Linkedin</a>  <a href="">Twitter</a>  <a href="">Behance</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <header class="header">
+      <div class="row">
+        <div class="small-12 medium-6 large-4 large-offset-2 columns header-content">
+          <h1 class="title-h1">I’m a webdesigner and <br> <span>front-end developer</span> living in Lille</h1>
+          
+          <svg width="57px" height="277px" viewBox="-1 -1 57 277" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="am-link">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <path d="M0,0.119790982 C0,56.4854536 0.124230171,48.582415 0.124230171,48.582415 L43,48.582415 L43,84.119791" id="Line1" stroke="#373737"></path>
+                  <path d="M43.5,206.5 L43.5,274.5" id="Line2" stroke="#373737" stroke-linecap="square"></path>
+                  <text id="about-me" transform="translate(44.000000, 146.500000) rotate(90.000000) translate(-44.000000, -146.500000) " font-family="AvenirNext-Medium, Avenir Next" font-size="16" font-weight="400" fill="#373737">
+                      <tspan x="8.5" y="151.5">about me</tspan>
+                  </text>
+              </g>
+          </svg>
+          
         </div>
-        <div class="scroll text-center">
-          <i class="fa fa-angle-down" aria-hidden="true"></i>
+        <div class="small-12 medium-6 large-4 columns header-bcg hide-for-small-only">
+          <img src="./assets/img/header-hp.jpg" alt="Guillaume Caulier, webdesigner & Front-end developer">
+          
+          <svg width="472px" height="597px" viewBox="0 0 472 597" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-bcg">
+              <defs>
+                  <linearGradient x1="0%" y1="0%" x2="104.744169%" y2="101.827725%" id="linearGradient-1">
+                      <stop stop-color="#11ADB8" offset="0%"></stop>
+                      <stop stop-color="#7CAD78" stop-opacity="0.510897871" offset="100%"></stop>
+                  </linearGradient>
+                  <linearGradient x1="0%" y1="0%" x2="104.744169%" y2="101.827725%" id="linearGradient-2">
+                      <stop stop-color="#11ADB8" stop-opacity="0.5" offset="0%"></stop>
+                      <stop stop-color="#7CAD78" stop-opacity="0.510897871" offset="100%"></stop>
+                  </linearGradient>
+              </defs>
+              <g id="Group-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <rect id="Rectangle-4" fill-opacity="0.501981431" fill="url(#linearGradient-1)" x="80" y="465.839996" width="331" height="130.469337"></rect>
+                  <rect id="Rectangle-3" fill-opacity="0.796959918" fill="#727270" x="140" y="335.609985" width="331" height="130.469337"></rect>
+                  <rect id="Rectangle-2" fill-opacity="0.501981431" fill="#216488" x="80" y="130.470001" width="331" height="205.381408"></rect>
+                  <rect id="Rectangle-1" fill="url(#linearGradient-2)" x="-2.84217094e-14" y="0" width="331" height="130.469337" ></rect>
+              </g>
+          </svg>
+          
         </div>
       </div>
-    </div>
-  </header>
-</section>
-
-
-
-<section id="presentation">
-  <div class="container-fluid">
-  <div class="background-move"></div>
-    <div class="background-svg">
-      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-        <div class="presentation-left">
-          <div class="presentation-content">
-            <p>Hi,</p>
-            <p id="quote">I'm an creative Developer based in Lille</p>
-            <br>
-            <div class="gopro">
-              
-<svg width="43px" height="23px" viewBox="17 27 63 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs></defs>
-    <g id="noun_22995_cc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(17.000000, 27.000000)">
-        <circle id="center" class="center" fill="#000000" cx="31.5" cy="41.5" r="1.5"></circle>
-        <circle id="center" class="center" fill="#000000" cx="41.5" cy="31.5" r="1.5"></circle>
-        <circle id="center" class="center" fill="#000000" cx="31.5" cy="31.5" r="1.5"></circle>
-        <circle id="center" class="center" fill="#000000" cx="21.5" cy="31.5" r="1.5"></circle>
-        <circle id="right" class="right" fill="#000000" cx="51.5" cy="21.5" r="1.5"></circle>
-        <circle id="center" class="center" fill="#000000" cx="41.5" cy="21.5" r="1.5"></circle>
-        <circle id="center" class="center" fill="#000000" cx="31.5" cy="21.5" r="1.5"></circle>
-        <circle id="center" class="center" fill="#000000" cx="21.5" cy="21.5" r="1.5"></circle>
-        <circle id="left" class="left" fill="#000000" cx="11.5" cy="21.5" r="1.5"></circle>
-        <circle id="right" class="right" fill="#000000" cx="61.5" cy="11.5" r="1.5"></circle>
-        <circle id="right" class="right" fill="#000000" cx="51.5" cy="11.5" r="1.5"></circle>
-        <circle id="right" class="right" fill="#000000" cx="41.5" cy="11.5" r="1.5"></circle>
-        <circle id="left" class="left" fill="#000000" cx="21.5" cy="11.5" r="1.5"></circle>
-        <circle id="left" class="left" fill="#000000" cx="11.5" cy="11.5" r="1.5"></circle>
-        <circle id="left" class="left" fill="#000000" cx="1.5" cy="11.5" r="1.5"></circle>
-        <circle id="right" class="right" fill="#000000" cx="51.5" cy="1.5" r="1.5"></circle>
-        <circle id="left" class="left" fill="#000000" cx="11.5" cy="1.5" r="1.5"></circle>
-    </g>
-</svg>
-
+    </header>
+    
+    <section class="aboutme" id="aboutme">
+      <div class="row">
+        <div class="small-12 medium-6 large-4 columns text-right large-offset-2">
+          <h2 class="title-h2"><span class="test" data-title="about">about</span> <br><span class="my test" data-title="my">my</span> <br><span class="test" data-title="PHILOSOPHY">PHILOSOPHY</span></h2>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex debitis, rerum expedita, ab neque id? Praesentium eos delectus quod saepe deleniti sapiente quaerat unde debitis dolorum ab et veritatis, neque.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non beatae consequuntur suscipit tenetur rerum cumque fuga voluptas quibusdam, harum consectetur quos repudiandae recusandae eos autem voluptate. Velit voluptatem, iste.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est esse maxime harum excepturi dignissimos ex quasi magnam quas deleniti. Voluptatum ad, ratione, unde veniam aspernatur nemo. Voluptatum, harum, minima.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-5 medium-offset-4 columns">
+          <h3 class="ccl">My idea of great product design combines a user centered approach with a strong and appealing visual language. With the experience I </h3>
+        </div>
+      </div>
+    </section>
+    
+    <section class="projects owl-carousel" id="projects">
+    
+      <div id="decofr">
+        <span class="num">01</span>
+        <div class="row">
+          <div class="small-12 medium-4 medium-offset-2 columns border-project-top text-right">
+            <h2 class="title-h2 test" data-title="Déco.fr">Déco.fr</h2>
+            <!-- <svg width="500px" height="16px" viewBox="167 249 500 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg hide-for-small-only">>
+                <defs>
+                    <linearGradient x1="-2.03888548%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+                        <stop stop-color="#11ADB8" offset="0%"></stop>
+                        <stop stop-color="#7CAD78" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <polygon id="Rectangle-10" stroke="none" fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" points="167 249 667 249 667 264.090543 167 264.090543"></polygon>
+            </svg> -->
+            
+            <svg width="100%" height="18px" viewBox="-8 -9 516 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg">
+                <path d="M0,0 L500,0" id="Line" stroke="#373737" stroke-width="5" stroke-linecap="square" fill="none"></path>
+            </svg>
+            
+                <img src="./assets/img/decofr.jpg" class="project-img" alt="">
+          </div>
+          <div class="small-12 medium-4 columns project-content">
+            <p class="lead">1er site de décoration en France.</p>
+            <p class="description">Intégration sous foundation à l'occasion de la refonte graphique du 1er site de décoration en France. Utilisation de Foundation, Sass, Jquery, Gulp, Github, Zeplin, Sketch.</p>
+            <div class="row">
+              <ul class="no-bullet small-6 medium-2 columns subtitle">
+                <li><span>Client:</span></li>
+                <li><span>Role:</span></li>
+                <li><span>Year:</span></li>
+              </ul>
+              <ul class="no-bullet small-6 medium-4 columns subtitle">
+                <li>Groupe M6</li>
+                <li>Integration</li>
+                <li>Oct. 2016</li>
+              </ul>
             </div>
+            <a href="" class="project-link">case-study</a>
+            <span>or</span>
+            <a href="http://deco.fr" target="_blank" class="btn">visit website</a>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="ptb">
-  <div class="container ptb">
-    <div class="col-xs-12 col-sm-6 col-sm-offset-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat itaque commodi sequi minus molestias laboriosam, illum dignissimos architecto eius natus at nam eligendi quis, cum distinctio beatae aspernatur ullam?</p>
-    </div>
-  </div>
-</section>
-
-
-
-
-<!--
-
-<section>
-  <div class="container ptb">
-    <div class="col-xs-12 col-sm-6 col-sm-offset-6">
-      <img src="images/front-color.jpeg" alt="" class="img-responsive">
-      <div class="col-xs-12 col-sm-10 forward yellow">
-        <h2>&emsp;I'm an independent Front-End Developper based in Lille who bring creativity and intelligence to the world’s most beloved brands.</h2>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="container text-center ptb">
-  <h2>Vais aller chercher l'poney!</h2>
-</div>
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/para.jpeg"></div>
-
-
-<section id="skills">
-  <div class="container ptb30">
-    <div class="row text-center ptb">
-      <div class="col-xs-12 col-sm-3 ptb30"><i class="fa fa-html5" aria-hidden="true"></i></div>
-      <div class="col-xs-12 col-sm-3 ptb30"><i class="fa fa-css3" aria-hidden="true"></i></div>
-      <div class="col-xs-12 col-sm-3 ptb30"><i class="fa fa-git" aria-hidden="true"></i></div>
-      <div class="col-xs-12 col-sm-3 ptb30"><img src="images/greensock-logo.svg" alt="Greensock Logo"></div>
-    </div>
-  </div>
-</section> -->
-
-<section id="projects">
-  <div class="container ptb">
-    <h2>PROJECTS</h2>
-    <div class="row ptb30">
-
-      <div class="col-xs-12 project latest">
-        <div class="content text-shadow">
-          <h2>Jean-David Grattepanche</h2>
-          <h4><span>Biologist</span></h4>
-          <a href="jeandavidgrattepanche.html">Case study</a>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 project ju">
-        <div class="content text-shadow">
-          <h2>Julien Cornuel</h2>
-          <h4><span>Supervisor musical</span></h4>
-          <a href="juliencornuelbis.html">Case study</a>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 project jd">
-        <div class="text-shadow text-center flex">
-          <div class="questions-project">
-            <img src="images/idea.svg" alt="Any questions">
-            <p><a href="">Contact me</a></p>
+    
+      <div id="ocleo">
+        <span class="num">02</span>
+        <div class="row">
+          <div class="small-12 medium-4 medium-offset-2 columns border-project-top text-right">
+            <h2 class="title-h2 test" data-title="Studio Ocleo">Studio Ocleo</h2>
+            <!-- <svg width="500px" height="16px" viewBox="167 249 500 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg hide-for-small-only">>
+                <defs>
+                    <linearGradient x1="-2.03888548%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+                        <stop stop-color="#11ADB8" offset="0%"></stop>
+                        <stop stop-color="#7CAD78" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <polygon id="Rectangle-10" stroke="none" fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" points="167 249 667 249 667 264.090543 167 264.090543"></polygon>
+            </svg> -->
+            
+            <svg width="100%" height="18px" viewBox="-8 -9 516 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg">
+                <path d="M0,0 L500,0" id="Line" stroke="#373737" stroke-width="5" stroke-linecap="square" fill="none"></path>
+            </svg>
+            
+                <img src="./assets/img/decofr.jpg" class="project-img" alt="">
+          </div>
+          <div class="small-12 medium-4 columns project-content">
+            <p class="lead">Studio de création digitale.</p>
+            <p class="description">Webdesign & développement sous foundation du studio de création digitale Ocleo basé sur la Côte d'Opale. Utilisation de Foundation, Sass, Jquery, Gulp, Sketch.</p>
+            <div class="row">
+              <ul class="no-bullet small-6 medium-2 columns subtitle">
+                <li><span>Client:</span></li>
+                <li><span>Role:</span></li>
+                <li><span>Year:</span></li>
+              </ul>
+              <ul class="no-bullet small-6 medium-4 columns subtitle">
+                <li>Studio Ocleo</li>
+                <li>Integration</li>
+                <li>Fev. 2017</li>
+              </ul>
+            </div>
+            <a href="" class="project-link">case-study</a>
+            <span>or</span>
+            <a href="https://studio-ocleo.fr" target="_blank" class="btn">visit website</a>
           </div>
         </div>
       </div>
-
-    </div>
-  </div>
-</section>
-
-<!--
-<section id="#projects">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 col-sm-3 wrapper-projects ju" id="first">
-        <div class="projects-content">
-          <p class="very-big">M</p>
-          <a href="juliencornuelbis.html" class="case-study-link">Case Study</a>
+    
+      <div id="gratte">
+        <span class="num">03</span>
+        <div class="row">
+          <div class="small-12 medium-4 medium-offset-2 columns border-project-top text-right">
+            <h2 class="title-h2 test" data-title="J-D G.">J-D G.</h2>
+            <!-- <svg width="500px" height="16px" viewBox="167 249 500 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg hide-for-small-only">>
+                <defs>
+                    <linearGradient x1="-2.03888548%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+                        <stop stop-color="#11ADB8" offset="0%"></stop>
+                        <stop stop-color="#7CAD78" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <polygon id="Rectangle-10" stroke="none" fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" points="167 249 667 249 667 264.090543 167 264.090543"></polygon>
+            </svg> -->
+            
+            <svg width="100%" height="18px" viewBox="-8 -9 516 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg">
+                <path d="M0,0 L500,0" id="Line" stroke="#373737" stroke-width="5" stroke-linecap="square" fill="none"></path>
+            </svg>
+            
+                <img src="./assets/img/jdgrattepanche.jpg" class="project-img" alt="">
+          </div>
+          <div class="small-12 medium-4 columns project-content">
+            <p class="lead">Docteur en microbiologie marine. </p>
+            <p class="description">Webdesign & développement sous foundation du studio de création digitale Ocleo basé sur la Côte d'Opale. Utilisation de Foundation, Sass, Jquery, Gulp, Sketch.</p>
+            <div class="row">
+              <ul class="no-bullet small-6 medium-2 columns subtitle">
+                <li><span>Client:</span></li>
+                <li><span>Role:</span></li>
+                <li><span>Year:</span></li>
+              </ul>
+              <ul class="no-bullet small-6 medium-4 columns subtitle">
+                <li>Studio Ocleo</li>
+                <li>Integration</li>
+                <li>Fev. 2017</li>
+              </ul>
+            </div>
+            <a href="" class="project-link">case-study</a>
+            <span>or</span>
+            <a href="http://jeandavidgrattepanche.com" target="_blank" class="btn">visit website</a>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-3 wrapper-projects latest" id="second">
-        <div class="projects-content">
-          <p class="very-big">B</p>
-          <a href="juliencornuelbis.html" class="case-study-link">Case Study</a>
+    
+    
+      <div id="sublima">
+        <span class="num">04</span>
+        <div class="row">
+          <div class="small-12 medium-4 medium-offset-2 columns border-project-top text-right">
+            <h2 class="title-h2 test" data-title="Sublima">Sublima</h2>
+            <!-- <svg width="500px" height="16px" viewBox="167 249 500 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg hide-for-small-only">>
+                <defs>
+                    <linearGradient x1="-2.03888548%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+                        <stop stop-color="#11ADB8" offset="0%"></stop>
+                        <stop stop-color="#7CAD78" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <polygon id="Rectangle-10" stroke="none" fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" points="167 249 667 249 667 264.090543 167 264.090543"></polygon>
+            </svg> -->
+            
+            <svg width="100%" height="18px" viewBox="-8 -9 516 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="btop-svg">
+                <path d="M0,0 L500,0" id="Line" stroke="#373737" stroke-width="5" stroke-linecap="square" fill="none"></path>
+            </svg>
+            
+                <img src="./assets/img/sublima.jpg" class="project-img" alt="">
+          </div>
+          <div class="small-12 medium-4 columns project-content">
+            <p class="lead">Centre de formation et institut de beauté à Lille.</p>
+            <p class="description">Webdesign & développement sous foundation du studio de création digitale Ocleo basé sur la Côte d'Opale. Utilisation de Foundation, Sass, Jquery, Gulp, Sketch.</p>
+            <div class="row">
+              <ul class="no-bullet small-6 medium-2 columns subtitle">
+                <li><span>Client:</span></li>
+                <li><span>Role:</span></li>
+                <li><span>Year:</span></li>
+              </ul>
+              <ul class="no-bullet small-6 medium-4 columns subtitle">
+                <li>Studio Ocleo</li>
+                <li>Integration</li>
+                <li>Fev. 2017</li>
+              </ul>
+            </div>
+            <a href="" class="project-link">case-study</a>
+            <span>or</span>
+            <a href="http://sublima-lille.com" target="_blank" class="btn">visit website</a>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-3 wrapper-projects jd" id="third">
-        <div class="projects-content">
-          <p class="very-big">C</p>
-          <a href="juliencornuelbis.html" class="case-study-link">Case Study</a>
+    </section>
+    
+    
+    
+    
+    <section class="contact">
+      <div class="row">
+        <div class="small-12 medium-4 medium-offset-2 columns text-right">
+          <h2 class="title-h2 test" data-title="Get in touch">Get in touch</h2>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-3 wrapper-projects green" id="fourth">
-        <div class="projects-content">
-          <p class="very-big">F</p>
-          <a href="juliencornuelbis.html" class="case-study-link">Case Study</a>
+      <div class="row">
+        <div class="small-12 medium-4 medium-offset-2 columns">
+          <p class="lead text-right">I'm currently freelancing and always up for new challenges</p>
+          <p class="text-right">Vous avez un projet ? <br>Discutons en autour d'un café</p>
+        </div>
+        <div class="small-12 medium-4 columns">
+          
+          <svg width="252px" height="263px" viewBox="-2 -2 252 263" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="coffee">
+              <defs>
+                  <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="48.3825439%" id="radialGradient-1">
+                      <stop stop-color="#929191" offset="0%"></stop>
+                      <stop stop-color="#F5F5F5" offset="100%"></stop>
+                  </radialGradient>
+                  <path d="M201.960784,113.72549 L231.381856,113.72549 C236.791272,113.72549 241.176471,118.113665 241.176471,123.529412 L241.176471,123.529412 C241.176471,128.943968 236.792082,133.333333 231.381856,133.333333 L201.960784,133.333333 L201.960784,113.72549 Z" id="path-2"></path>
+                  <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+                      <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                  </filter>
+                  <ellipse id="path-4" cx="120.098039" cy="123.039216" rx="81.8627451" ry="81.8627451"></ellipse>
+                  <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+                      <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+                      <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+                      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+                      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                  </filter>
+              </defs>
+              <g id="cupofcoffee" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <circle id="Oval-6" stroke="#F5F5F5" stroke-width="4" fill="url(#radialGradient-1)" cx="120.098039" cy="120.098039" r="120.098039"></circle>
+                  <path d="M230.640089,145.098039 C246.478552,180.06134 235.726739,222.437437 203.140498,245.254569 C169.045168,269.128376 123.004188,263.216655 95.9127737,232.967068 L95.43393,233.302358 L44.8242444,161.024236 L93.6584677,126.830145 C98.2318801,121.287695 103.621081,116.263735 109.793745,111.941589 C115.966409,107.619443 122.530603,104.273547 129.303001,101.871574 L178.940314,67.1151531 L219.81496,125.490196 L240.205386,125.490196 C245.614802,125.490196 250,129.878371 250,135.294118 C250,140.708674 245.615612,145.098039 240.205386,145.098039 L230.640089,145.098039 Z" id="Combined-Shape" fill-opacity="0.222543025" fill="#373737"></path>
+                  <g id="Rectangle-8">
+                      <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                      <use fill="#F5F5F5" fill-rule="evenodd" xlink:href="#path-2"></use>
+                  </g>
+                  <g id="Oval-5">
+                      <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                      <use stroke="#F5F5F5" stroke-width="8" fill="#332513" fill-rule="evenodd" xlink:href="#path-4"></use>
+                  </g>
+                  <ellipse id="Oval-8" stroke="#3F2D17" cx="120.098039" cy="124.019608" rx="46.5686275" ry="46.5686275"></ellipse>
+                  <path d="M58.4554788,119.120165 C58.4554788,62.243699 108.127485,61.2144904 108.127485,61.2144904" id="Path-2" stroke="#3C2B16"></path>
+                  <path d="M78.7632508,111.244925 C78.7632508,61.4295817 122.268556,60.5281477 122.268556,60.5281477" id="Path-2" stroke="#3C2B16" transform="translate(100.515904, 85.886536) rotate(24.000000) translate(-100.515904, -85.886536) "></path>
+              </g>
+          </svg>
+          
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+    
+    <section class="footer">
+      <div class="row">
+        <div class="small-12 medium-4 medium-offset-2 columns">
+          <ul class="no-bullet contact">
+            <li><a href="mailto:hello@guillaumecaulier.com">hello@guillaumecaulier.com</a></li>
+            <li><a href="phoneto:0601402522">+33 (0)6 01 40 25 22</a></li>
+            <li><a href="">Linkedin</a> <a href="">Twitter</a> <a href="">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
 
- -->
+    <script src="assets/js/app.js"></script>
 
-    <footer>
-  <div class="container">
-    <div class="col-xs-12 text-center ptb">
-
-      <hr id="mini">
-      <a href="mailto:cauliergui@gmail.com" class="ptb30 big-text">cauliergui<span>@gmail.com</span></a>
-      <ul class="list-inline ptb30">
-        <li><a href="https://fr.linkedin.com/in/guillaume-caulier-61854711a
-    " target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li>/</li>
-        <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li>/</li>
-        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li>/</li>
-        <li><a href=""><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
-      </ul>
-
-    </div>
-  </div>
-</footer>
-
-
-
-
-
-
-
-
-    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <script src="/javascripts/all.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   </body>
 </html>
